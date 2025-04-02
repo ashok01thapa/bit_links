@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className='h-18 bg-purple-700 flex justify-between md:justify-between  items-center text-white'>
+    <nav className='h-18 bg-purple-700 flex justify-between px-1 sm:px-2 lg:px-3 md:justify-between  items-center text-white'>
         <div className="logo font-bold text-lg">
             <Link href="/">BitLinks</Link>
         </div>
