@@ -10,11 +10,7 @@ const poppins = localFont({
 
 export default function Home() {
   return (
-<<<<<<< HEAD
     <main className= "bg-purple-100 h-[80vh] ">
-=======
-    <main className= "bg-purple-100 h-[70vh] ">
->>>>>>> a2982ba4910961fc0bba0087f6cc42930bdb0634
      <section className=" container mx-auto  px-4 sm:px-6 lg:px-8 md:grid md:grid-cols-2 h-[50vh]">
       <div className=" flex flex-col md:flex-wrap gap-4 items-center justify-center">
         <h1 className={`font-bold text-2xl sm:text-3xl md:text-3xl text-center ${poppins.className}`}>
@@ -26,13 +22,9 @@ export default function Home() {
       </p>
       <div className='flex gap-3 justify-between md:justify-between '>
                 <Link href="/shorten"><button className='  md:block bg-purple-500 shadow-lg rounded-lg py-2 font-bold cursor-pointer text-white p-3'>Try Now</button></Link>
-<<<<<<< HEAD
                 <a href="https://github.com/ashok01thapa/bit_links" target="_blank" rel="noopener noreferrer">
                   <button className='bg-purple-500 shadow-lg rounded-lg py-2 font-bold cursor-pointer text-white p-3'>GitHub</button>
                 </a>
-=======
-                <Link href="/github"><button className='bg-purple-500 shadow-lg rounded-lg py-2 font-bold  cursor-pointer text-white p-3'>GitHub</button></Link>
->>>>>>> a2982ba4910961fc0bba0087f6cc42930bdb0634
             </div>
 
       </div>

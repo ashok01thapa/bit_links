@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react'
 import Link from 'next/link'
 
@@ -15,7 +14,9 @@ const Navbar = () => {
             <Link href="/Contact"><li>Contact Us</li></Link>
             <li className='flex gap-3'>
                 <Link href="/shorten"><button className='md:flex-row hidden md:block bg-purple-500 shadow-lg rounded-lg py-1 font-bold cursor-pointer p-3'>Try Now</button></Link>
-                <Link href="/github"><button className='md:flex-row hidden md:block bg-purple-500 shadow-lg rounded-lg py-1 font-bold  cursor-pointer p-3'>GitHub</button></Link>
+                <a href="https://github.com/ashok01thapa/bit_links" target="_blank" rel="noopener noreferrer">
+                  <button className='md:flex-row hidden md:block bg-purple-500 shadow-lg rounded-lg py-1 font-bold  cursor-pointer p-3'>GitHub</button>
+                </a>
             </li>
         </ul>
     </nav>
@@ -23,29 +24,3 @@ const Navbar = () => {
 }
 
 export default Navbar
-=======
-import React from 'react'
-import Link from 'next/link'
-
-const Navbar = () => {
-  return (
-    <nav className='h-18 bg-purple-700 flex justify-between px-1 sm:px-2 lg:px-3 md:justify-between  items-center text-white'>
-        <div className="logo font-bold text-lg">
-            <Link href="/">BitLinks</Link>
-        </div>
-        <ul className='flex justify-center gap-4 items-center'>
-            <Link href="/"><li>Home</li></Link>
-            <Link href="/About"><li>About</li></Link>
-            <Link href="/shorten"><li>Shorten</li></Link>
-            <Link href="/Contact"><li>Contact Us</li></Link>
-            <li className='flex gap-3'>
-                <Link href="/shorten"><button className='md:flex-row hidden md:block bg-purple-500 shadow-lg rounded-lg py-1 font-bold cursor-pointer p-3'>Try Now</button></Link>
-                <Link href="/github"><button className='md:flex-row hidden md:block bg-purple-500 shadow-lg rounded-lg py-1 font-bold  cursor-pointer p-3'>GitHub</button></Link>
-            </li>
-        </ul>
-    </nav>
-  )
-}
-
-export default Navbar
->>>>>>> a2982ba4910961fc0bba0087f6cc42930bdb0634
